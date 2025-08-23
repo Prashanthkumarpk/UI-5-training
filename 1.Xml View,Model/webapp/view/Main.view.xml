@@ -1,0 +1,18 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    controllerName="msg.ri.controller.Main">
+
+    <f:SimpleForm title="Employee Details">
+        <f:content>
+         <Label text="Employee ID" width="50%"/>
+         <Input id="idInput" value="{/empId}" placeholder="Enter Employee ID" />
+         <Label text="Employee Name"/>
+        </f:content>
+
+    </f:SimpleForm>
+    
+
+</mvc:View>
