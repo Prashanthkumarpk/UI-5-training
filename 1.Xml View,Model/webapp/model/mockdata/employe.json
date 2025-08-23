@@ -1,0 +1,39 @@
+{
+    "empStr": {
+        "empId": 100,
+        "eName": "PK",
+        "salary": 5000,
+        "curr": "USD"
+    },
+    "empTab": [{
+            "empId": 4000,
+            "eName": "Jessica",
+            "salary": 1500,
+            "curr": "USD"
+        },
+        {
+            "empId": 4001,
+            "eName": "Bilal",
+            "salary": 9100,
+            "curr": "AED"
+        },
+        {
+            "empId": 4002,
+            "eName": "Rohit",
+            "salary": 7800,
+            "curr": "USD"
+        },
+        {
+            "empId": 4003,
+            "eName": "Mathias",
+            "salary": 8900,
+            "curr": "EUR"
+        },
+        {
+            "empId": 4004,
+            "eName": "Kim Pu",
+            "salary": 7400,
+            "curr": "JPY"
+        }
+    ]
+}

@@ -5,11 +5,26 @@
     xmlns:f="sap.ui.layout.form"
     controllerName="msg.ri.controller.Main">
 
-    <f:SimpleForm title="Employee Details">
+    <f:SimpleForm editable="true"  >
+        <f:title>
+            <core:Title icon="sap-icon://customer" text="Employee Information Form" level="H2"  />
+        </f:title>
         <f:content>
-         <Label text="Employee ID" width="50%"/>
-         <Input id="idInput" value="{/empId}" placeholder="Enter Employee ID" />
+         <Label text="Employee ID" />
+         <Input width="30%" value="{/empStr/empId}" id="idInput" placeholder="Enter Employee ID" />
+         
          <Label text="Employee Name"/>
+         <Input  id="eName" width="40%" value="{path:'/empStr/eName'}"/>
+        
+         <Label text="Employee salary"/>
+         <Input id="eSalary" width="30%"/>
+         
+         <Label text="Currency"/>
+         <Input id="eCurr" width="20%"/>
+
+         <Label/>
+         <Button text="Submit" type="Emphasized" press="onSubmit"/>
+        
         </f:content>
 
     </f:SimpleForm>
