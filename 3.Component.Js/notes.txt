@@ -1,0 +1,13 @@
+index.html
+   │
+   ▼
+[ ComponentContainer ]   <-- UI5 control that hosts the app
+   │
+   ▼
+[ Component ]            <-- The actual app (views, models, routing, manifest)
+   │
+   ▼
+Component.js             <-- Defines how the Component is built (init, models, etc.)
+   │
+   ▼
+manifest.json            <-- Configuration: root view, i18n, libs
